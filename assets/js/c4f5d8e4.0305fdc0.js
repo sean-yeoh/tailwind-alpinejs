@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktailwind_alpinejs=self.webpackChunktailwind_alpinejs||[]).push([[195],{2841:function(n,e,t){t.r(e),t.d(e,{default:function(){return l}});var i=t(7294),a=t(5977);function l(){return i.createElement(a.l_,{to:"/tailwind-alpinejs/docs/intro"})}}}]);

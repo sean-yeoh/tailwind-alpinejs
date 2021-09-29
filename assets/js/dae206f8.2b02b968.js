@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktailwind_alpinejs=self.webpackChunktailwind_alpinejs||[]).push([[547],{5433:function(a){a.exports=JSON.parse('{"allTagsPath":"/tailwind-alpinejs/blog/tags","slug":"/tailwind-alpinejs/blog/tags/facebook","name":"facebook","count":1,"permalink":"/tailwind-alpinejs/blog/tags/facebook"}')}}]);
