@@ -13,6 +13,8 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <h2>Hello World</h2>
+
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
