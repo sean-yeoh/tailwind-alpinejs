@@ -30,4 +30,5 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 iframe {
   width: 100%;
   min-height: 400px;
+  border-radius: 12px;
 }
