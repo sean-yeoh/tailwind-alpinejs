@@ -13,7 +13,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   favicon: 'img/favicon.ico',
   organizationName: 'sean-yeoh', // Usually your GitHub org/user name.
   projectName: 'tailwind-alpinejs', // Usually your repo name.
-
+  trailingSlash: true,
   presets: [
     [
       '@docusaurus/preset-classic',
