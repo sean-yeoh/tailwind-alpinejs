@@ -17,6 +17,14 @@ import howItWorks from '../src/snippets/modal/how-it-works'
 <CodeBlock className="language-js">{snippetJS}</CodeBlock>
 
 ## How it works
+- `x-data="modal"`: Root element that stores the state.
+- `x-bind="trigger"`: Used to open modal.
+- `x-cloak`: Used to hide modal content before Alpine loads. https://alpinejs.dev/directives/cloak
+- `x-bind="modalContainer"`: Used to wrap the actual modal.
+- `x-bind="modalOverlay"`: Modal overlay/backdrop.
+- `x-bind="modalPanel"`: Used to place modal content.
+- `x-bind="close"`: Used to close modal.
+
 <CodeBlock className="language-html">{howItWorks}</CodeBlock>
 
 ## Examples
