@@ -2,21 +2,22 @@ export default `<!doctype html>
   <html lang="en">
     <head>
       <meta charset="utf-8">
-      <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-      <script defer src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+      <link href="/tailwind-alpinejs/tailwind.min.css" rel="stylesheet">
+      <script defer src="/tailwind-alpinejs/alpine.min.js"></script>
+      <script src="/tailwind-alpinejs/modal.js"></script>
       <style>
         [x-cloak] {
           display: none;
         }
 
         .main {
-          display: flex;
-          align-items: center;
-          justify-content: center;
+          display: grid;
           height: 100vh;
+          margin: 0;
+          place-items: center center;
         }
       </style>
     </head>
     <body class="bg-gray-200">
-      <div class="main">
+      <div class="main max-w-7xl mx-auto my-auto sm:px-6 lg:px-8">
 `

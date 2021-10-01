@@ -4,7 +4,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'My Site',
+  title: 'Tailwind + Alpine.js',
   tagline: 'Dinosaurs are cool',
   url: 'https://sean-yeoh.github.io',
   baseUrl: '/tailwind-alpinejs/',

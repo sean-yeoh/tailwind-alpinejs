@@ -6,21 +6,50 @@ import TabItem from '@theme/TabItem'
 import Iframe from '../src/components/Iframe'
 import CodeBlock from '@theme/CodeBlock'
 import snippetHTML from '../src/snippets/modal/html'
+import snippetHTML2 from '../src/snippets/modal/html2'
+import snippetHTML3 from '../src/snippets/modal/html3'
 import snippetJS from '../src/snippets/modal/js'
+import howItWorks from '../src/snippets/modal/how-it-works'
 
 # Modal
 
-## Preview
+## JavaScript setup
+<CodeBlock className="language-js">{snippetJS}</CodeBlock>
 
-<Iframe html={snippetHTML} js={snippetJS} />
+## How it works
+<CodeBlock className="language-html">{howItWorks}</CodeBlock>
 
-## Code
+## Examples
+
+### Single modal
 
 <Tabs>
-  <TabItem value="html" label="HTML" default>
+  <TabItem value="preview" label="Preview" default>
+    <Iframe html={snippetHTML}  />
+  </TabItem>
+  <TabItem value="html" label="HTML">
     <CodeBlock className="language-html">{snippetHTML}</CodeBlock>
   </TabItem>
-  <TabItem value="js" label="JS">
-    <CodeBlock className="language-js">{snippetJS}</CodeBlock>
+</Tabs>
+
+### Modal inside table
+
+<Tabs>
+  <TabItem value="preview" label="Preview" default>
+    <Iframe html={snippetHTML2}  />
+  </TabItem>
+  <TabItem value="html" label="HTML">
+    <CodeBlock className="language-html">{snippetHTML2}</CodeBlock>
+  </TabItem>
+</Tabs>
+
+### Multiple modals
+
+<Tabs>
+  <TabItem value="preview" label="Preview" default>
+    <Iframe html={snippetHTML3}  />
+  </TabItem>
+  <TabItem value="html" label="HTML">
+    <CodeBlock className="language-html">{snippetHTML3}</CodeBlock>
   </TabItem>
 </Tabs>

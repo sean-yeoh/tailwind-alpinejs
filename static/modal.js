@@ -1,4 +1,4 @@
-  export default `let modal = () => ({
+let modal = () => ({
   open: false,
 
   trigger: {
@@ -47,4 +47,4 @@
 
 document.addEventListener('alpine:init', () => {
   Alpine.data("modal", modal)
-})`
+})
