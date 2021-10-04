@@ -4,7 +4,7 @@ export default `<!doctype html>
       <meta charset="utf-8">
       <link href="/tailwind-alpinejs/tailwind.min.css" rel="stylesheet">
       <script defer src="/tailwind-alpinejs/alpine.min.js"></script>
-      <script src="/tailwind-alpinejs/modal.js"></script>
+      <script src="CUSTOM_SCRIPT"></script>
       <style>
         [x-cloak] {
           display: none;

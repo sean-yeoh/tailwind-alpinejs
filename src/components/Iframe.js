@@ -5,7 +5,7 @@ import srcdocEnd from '../snippets/srcdoc-end'
 export default function Iframe(props) {
   return (
     <iframe srcDoc={`
-    ${srcdocStart}
+    ${srcdocStart.replace('CUSTOM_SCRIPT', props.script)}
       ${props.html}
     ${srcdocEnd}`}>
     </iframe>
